@@ -86,7 +86,7 @@ for _, remote in pairs(remotesToBlock) do
 end
 
 if #filteredRemotes == 0 then
-    notify("✅ Already bypassed! Total blocked: "..#filteredRemotes, "rbxassetid://14793431068")
+    notify("✅ Already bypassed!, "rbxassetid://14793431068")
     return
 end
 
