@@ -25,9 +25,9 @@ local function notify(text, iconId)
 end
 
 local function BypassMobileClientAntiCheat()
-    if StarterPlayerScripts and StarterPlayerScripts:FindFirstChild("ClientAnticheat") and StarterPlayerScripts.ClientAnticheat:FindFirstChild("AntiMobileExploits") then
-        BlockInstance(StarterPlayerScripts.ClientAnticheat.AntiMobileExploits)
-        BlockInstance(StarterPlayerScripts.ClientAnticheat)
+    if StarterPlayerScripts and StarterPlayerScripts:FindFirstChild("Fly") then
+        BlockInstance(StarterPlayerScripts.Fly)
+        BlockInstance(StarterPlayerScripts.Flying)
         notify("✅ Bypassed Mobile Client Anti-Cheat!", "rbxassetid://14793431068")
     end
 end
