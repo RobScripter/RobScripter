@@ -1,1 +1,35 @@
+local RequireService = cloneref or function(clone) return clone end
+local BlockInstance = function(ez)
+    ez.Name = "BlockedInstance_"..math.random(0,500000)
+    ez.Parent = RequireService(game:GetService("LogService"))
+    ez:Destroy()
+end
 
+local game = game or Ugc
+local Players = RequireService(game:GetService("Players"))
+local Player = Players.LocalPlayer
+local PlayerScripts = Player:WaitForChild("PlayerScripts")
+local StarterPlayer = RequireService(game:GetService("StarterPlayer"))
+local StarterPlayerScripts = StarterPlayer:WaitForChild("StarterPlayerScripts")
+local ReplicatedStorage = RequireService(game:GetService("ReplicatedStorage"))
+local ReplicatedFirst = RequireService(game:GetService("ReplicatedFirst"))
+
+local function notify(text, iconId)
+    game:GetService("StarterGui"):SetCore("SendNotification", {
+        Title = "Bypass",
+        Text = text,
+        Duration = 999999,
+        Button1 = "OK",
+        Icon = iconId
+    })
+end
+
+local function BypassMobileClientAntiCheat()
+    if StarterPlayerScripts and StarterPlayerScripts:FindFirstChild("ClientAnticheat") and StarterPlayerScripts.ClientAnticheat:FindFirstChild("AntiMobileExploits") then
+        BlockInstance(StarterPlayerScripts.ClientAnticheat.AntiMobileExploits)
+        BlockInstance(StarterPlayerScripts.ClientAnticheat)
+        notify("✅ Bypassed Mobile Client Anti-Cheat!", "rbxassetid://14793431068")
+    end
+end
+
+BypassMobileClientAntiCheat()
