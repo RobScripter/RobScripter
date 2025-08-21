@@ -10,7 +10,7 @@ return {
     ["Mouse"] = "GeneralHit",
     ["Hexa"] = "GeneralHit",
     ["Metaverse"] = "GeneralHit",
-	["SwashBucker"] = "GeneralHit",
+	["Swashbucker"] = "GeneralHit",
     ["Swordfighter"] = "GeneralHit",
     ["Tank"] = "GeneralHit",
     ["Eggler"] = "GeneralHit",
