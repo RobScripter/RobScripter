@@ -20,7 +20,7 @@ return {
 	["Suction"] = "GeneralHit",
 	["Reflect"] = "GeneralHit",
 	["Dave"] = "GeneralHit",
-	["Mortis"] = "GeneralHit",
+	["mortis"] = "GeneralHit",
     ["T H I C K"] = "GeneralHit",
     ["MATERIALIZE"] = "GeneralHit",
     ["Dual"] = "GeneralHit",
