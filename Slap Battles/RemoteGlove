@@ -4,6 +4,7 @@ return {
     -----------// Glove Hit General Or New Glove \\-----------
     ["Boxer"] = "GeneralHit",
     ["Angler"] = "GeneralHit",
+    ["Lag"] = "GeneralHit",
     ["Jerry"] = "GeneralHit",
     ["Snowroller"] = "GeneralHit",
     ["Draw4"] = "GeneralHit",
