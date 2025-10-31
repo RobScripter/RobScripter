@@ -6,6 +6,7 @@ return {
     ["Angler"] = "GeneralHit",
     ["Lag"] = "GeneralHit",
     ["Jerry"] = "GeneralHit",
+	["Stick"] = "GeneralHit",
     ["Snowroller"] = "GeneralHit",
     ["Draw4"] = "GeneralHit",
     ["Mouse"] = "GeneralHit",
