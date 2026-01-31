@@ -7,12 +7,12 @@ if not game:IsLoaded() then
 end
 repeat task.wait() until game.Players.LocalPlayer
 wait(0.25)
-loadstring(game:HttpGet("https://raw.githubusercontent.com/RobScripter/Slap-Battles/refs/heads/main/AutoGetBobV2"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/RobScripter/RobScripter/refs/heads/main/Slap%20Battles/AutoGetBob"))()
             ]])
 end
 
 if not game:GetService("BadgeService"):UserHasBadgeAsync(game.Players.LocalPlayer.UserId, 2125950512) then
-game:GetService("StarterGui"):SetCore("SendNotification",{Title = "[ RobScripter ]",Text = "📢 [ You have not issued Bob, and not badge bob ] 🇻🇳.",Icon = "rbxassetid://7733658504",Duration = 10})
+game:GetService("StarterGui"):SetCore("SendNotification",{Title = "[ RobScripter ]",Text = "📢 [ You have not issued Bob, and not badge bob ] .",Icon = "rbxassetid://7733658504",Duration = 10})
 fireclickdetector(workspace.Lobby.Replica.ClickDetector)
 wait(0.25)
 firetouchinterest(game.Players.LocalPlayer.Character:WaitForChild("Head"), workspace.Lobby.Teleport1.TouchInterest.Parent, 0)
