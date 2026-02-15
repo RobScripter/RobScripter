@@ -50,6 +50,7 @@ local remotesToBlock = {}
 if placeId == 9431156611 then
     remotesToBlock = {
         ReplicatedStorage.Remotes:FindFirstChild("Ban"),
+        ReplicatedStorage.Remotes:FindFirstChild("LegacyBan"),
     }
 elseif placeId == 11520107397 or placeId == 9015014224 or placeId == 6403373529 or placeId == 124596094333302 then
     remotesToBlock = {
