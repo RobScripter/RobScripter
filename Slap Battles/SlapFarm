@@ -1,0 +1,7 @@
+_G.SnowFarm = true _G.FarmSlapsSnowFarm = 150 _G.WaitRegisterSnowFarm = 1 loadstring(game:HttpGet('https://raw.githubusercontent.com/Pro666Pro/OpenSourceScripts/refs/heads/main/SlapFarmGui/Versions/(v4.3).luau'))()
+local teleportFunc = queueonteleport or queue_on_teleport or (syn and syn.queue_on_teleport)
+if teleportFunc then
+    teleportFunc([[
+_G.SnowFarm = true _G.FarmSlapsSnowFarm = 150 _G.WaitRegisterSnowFarm = 1 loadstring(game:HttpGet('https://raw.githubusercontent.com/Pro666Pro/OpenSourceScripts/refs/heads/main/SlapFarmGui/Versions/(v4.3).luau'))()
+    ]])
+end
